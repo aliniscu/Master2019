@@ -1,0 +1,21 @@
+# LibreOffice lock files
+.~lock*
+
+# Pyhton cached files
+ideScripts/__pycache__/
+
+# Visual code config
+.vscode/*
+!.vscode/c_cpp_properties.json
+
+# Build ignore
+build/
+
+# CMSIS 
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/Core/
+Drivers/CMSIS/Core_A/
