@@ -6,7 +6,20 @@
 	],
 	"settings": {
 		"files.associations": {
-			"Makefile.user":"makefile"
+			"Makefile.user":"makefile",
+			"Makefile.backup":"makefile"
+		},
+
+		"files.exclude": {
+			"**/.gitmodules": true,
+			"**/.gitignore":true,
+			"**/.editorconfig":true,
+
+			".mxproject":true,
+			"*.ioc":true,
+
+			"docs":true,
+			".vscode/ipch":true
 		}
 	}
 }
